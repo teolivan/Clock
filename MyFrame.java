@@ -29,8 +29,8 @@ public class MyFrame extends JFrame {
         this.setResizable(false);
 
         timeFormat = new SimpleDateFormat("hh:mm:ss a");
-        dayFormat = new SimpleDateFormat("E");
-        dateFormat = new SimpleDateFormat("dd MM, yyyy");
+        dayFormat = new SimpleDateFormat("EEEE");
+        dateFormat = new SimpleDateFormat("dd MMMMM, yyyy");
 
         timeLabel = new JLabel();
 
